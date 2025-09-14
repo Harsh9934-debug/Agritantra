@@ -9,9 +9,12 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
-              <Leaf className="h-8 w-8 text-green-500" />
-              <span className="text-2xl font-bold">Agritantra</span>
+            <div className="mb-4">
+              <img 
+                src="/src/assests/agnitantra-template (1).pptx (2) - Copy.png" 
+                alt="Agritantra Logo" 
+                className="h-12 w-auto bg-white p-2 rounded-lg"
+              />
             </div>
             <p className="text-gray-400 mb-4">
               Empowering farmers with smart technology, AI-driven insights, and direct market access for sustainable agriculture.

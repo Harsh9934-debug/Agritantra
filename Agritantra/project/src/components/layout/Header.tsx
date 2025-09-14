@@ -30,9 +30,12 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <Leaf className="h-8 w-8 text-green-600" />
-            <span className="text-2xl font-bold text-gray-900">Agritantra</span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/src/assests/agnitantra-template (1).pptx (2) - Copy.png" 
+              alt="Agritantra Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
