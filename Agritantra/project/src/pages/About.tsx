@@ -7,7 +7,7 @@ export const About: React.FC = () => {
       name: 'ESAHAKARA',
       role: 'BY AGRITANTRA PVT',
       image: 'https://www.esahakara.com/demo/assets/uploads/company/cust_photo_9536.png',
-    
+      description: 'Leading agricultural technology company focused on sustainable farming solutions.'
     },
     
   ];
