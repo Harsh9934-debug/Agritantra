@@ -32,7 +32,7 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="/src/assests/agnitantra-template (1).pptx (2) - Copy.png" 
+              src="/assets/agritantra-logo.png" 
               alt="Agritantra Logo" 
               className="h-12 w-auto"
             />

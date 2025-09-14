@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <div className="mb-4">
               <img 
-                src="/src/assests/agnitantra-template (1).pptx (2) - Copy.png" 
+                src="/assets/agritantra-logo.png" 
                 alt="Agritantra Logo" 
                 className="h-12 w-auto bg-white p-2 rounded-lg"
               />
