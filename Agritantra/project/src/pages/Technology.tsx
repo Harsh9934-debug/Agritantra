@@ -3,17 +3,17 @@ import { Cpu, Wifi, Cloud, Smartphone, Activity, Shield, Zap, Eye } from 'lucide
 
 export const Technology: React.FC = () => {
   const technologies = [
-    {
-      icon: <Activity className="h-12 w-12 text-green-600" />,
-      title: "AI & Machine Learning",
-      description: "Advanced computer vision and predictive analytics for crop health monitoring, disease detection, and yield optimization.",
-      features: [
-        "Deep learning models for crop disease identification",
-        "Predictive analytics for weather and yield forecasting",
-        "Computer vision for pest and nutrient deficiency detection",
-        "Real-time recommendation engine"
-      ]
-    },
+    // {
+    //   icon: <Activity className="h-12 w-12 text-green-600" />,
+    //   title: "AI & Machine Learning",
+    //   description: "Advanced computer vision and predictive analytics for crop health monitoring, disease detection, and yield optimization.",
+    //   features: [
+    //     "Deep learning models for crop disease identification",
+    //     "Predictive analytics for weather and yield forecasting",
+    //     "Computer vision for pest and nutrient deficiency detection",
+    //     "Real-time recommendation engine"
+    //   ]
+    // },
     {
       icon: <Wifi className="h-12 w-12 text-blue-600" />,
       title: "IoT Sensors & Devices",

@@ -29,56 +29,56 @@ export const Careers: React.FC = () => {
     "Stock options for key positions"
   ];
 
-  const openings = [
-    {
-      title: "Senior Full Stack Developer",
-      department: "Engineering",
-      location: "Bangalore / Remote",
-      type: "Full-time",
-      description: "Lead development of our farmer-facing platform and IoT integration systems.",
-      requirements: ["5+ years full-stack experience", "React/Node.js expertise", "IoT experience preferred"]
-    },
-    {
-      title: "AI/ML Engineer",
-      department: "Data Science",
-      location: "Pune / Hybrid",
-      type: "Full-time",
-      description: "Build and deploy machine learning models for crop health analysis and prediction.",
-      requirements: ["ML/AI experience", "Computer vision skills", "Python/TensorFlow expertise"]
-    },
-    {
-      title: "IoT Solutions Architect",
-      department: "Hardware",
-      location: "Chennai / On-site",
-      type: "Full-time",
-      description: "Design and implement IoT sensor networks and communication protocols.",
-      requirements: ["IoT systems experience", "MQTT/LoRaWAN knowledge", "Hardware integration skills"]
-    },
-    {
-      title: "Product Manager - Marketplace",
-      department: "Product",
-      location: "Mumbai / Hybrid",
-      type: "Full-time",
-      description: "Drive product strategy for our farmer-buyer marketplace platform.",
-      requirements: ["Product management experience", "Marketplace/B2B experience", "Agricultural domain knowledge"]
-    },
-    {
-      title: "Agricultural Specialist",
-      department: "Domain Expert",
-      location: "Multiple locations",
-      type: "Full-time",
-      description: "Provide domain expertise and work directly with farmers for product development.",
-      requirements: ["Agricultural background", "Field experience", "Regional language skills"]
-    },
-    {
-      title: "DevOps Engineer",
-      department: "Engineering",
-      location: "Bangalore / Remote",
-      type: "Full-time",
-      description: "Manage cloud infrastructure, CI/CD pipelines, and system reliability.",
-      requirements: ["AWS/GCP experience", "Kubernetes/Docker skills", "Monitoring and automation"]
-    }
-  ];
+  // const openings = [
+  //   {
+  //     title: "Senior Full Stack Developer",
+  //     department: "Engineering",
+  //     location: "Bangalore / Remote",
+  //     type: "Full-time",
+  //     description: "Lead development of our farmer-facing platform and IoT integration systems.",
+  //     requirements: ["5+ years full-stack experience", "React/Node.js expertise", "IoT experience preferred"]
+  //   },
+  //   {
+  //     title: "AI/ML Engineer",
+  //     department: "Data Science",
+  //     location: "Pune / Hybrid",
+  //     type: "Full-time",
+  //     description: "Build and deploy machine learning models for crop health analysis and prediction.",
+  //     requirements: ["ML/AI experience", "Computer vision skills", "Python/TensorFlow expertise"]
+  //   },
+  //   {
+  //     title: "IoT Solutions Architect",
+  //     department: "Hardware",
+  //     location: "Chennai / On-site",
+  //     type: "Full-time",
+  //     description: "Design and implement IoT sensor networks and communication protocols.",
+  //     requirements: ["IoT systems experience", "MQTT/LoRaWAN knowledge", "Hardware integration skills"]
+  //   },
+  //   {
+  //     title: "Product Manager - Marketplace",
+  //     department: "Product",
+  //     location: "Mumbai / Hybrid",
+  //     type: "Full-time",
+  //     description: "Drive product strategy for our farmer-buyer marketplace platform.",
+  //     requirements: ["Product management experience", "Marketplace/B2B experience", "Agricultural domain knowledge"]
+  //   },
+  //   {
+  //     title: "Agricultural Specialist",
+  //     department: "Domain Expert",
+  //     location: "Multiple locations",
+  //     type: "Full-time",
+  //     description: "Provide domain expertise and work directly with farmers for product development.",
+  //     requirements: ["Agricultural background", "Field experience", "Regional language skills"]
+  //   },
+  //   {
+  //     title: "DevOps Engineer",
+  //     department: "Engineering",
+  //     location: "Bangalore / Remote",
+  //     type: "Full-time",
+  //     description: "Manage cloud infrastructure, CI/CD pipelines, and system reliability.",
+  //     requirements: ["AWS/GCP experience", "Kubernetes/Docker skills", "Monitoring and automation"]
+  //   }
+  // ];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -130,7 +130,7 @@ export const Careers: React.FC = () => {
       </section>
 
       {/* Open Positions */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Open Positions</h2>
@@ -185,7 +185,7 @@ export const Careers: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Application Process */}
       <section className="py-20 bg-white">

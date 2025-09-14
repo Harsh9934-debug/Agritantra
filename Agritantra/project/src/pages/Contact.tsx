@@ -43,7 +43,7 @@ export const Contact: React.FC = () => {
     {
       icon: <Phone className="h-6 w-6 text-green-600" />,
       title: "Phone Support",
-      details: "+91 807-3804-799",
+      details: "+91 9738575088",
       subtitle: "Mon-Sat, 9 AM - 7 PM"
     },
     {
@@ -52,12 +52,12 @@ export const Contact: React.FC = () => {
       details: "support@agritantra.com",
       subtitle: "24/7 response within 4 hours"
     },
-    {
-      icon: <MapPin className="h-6 w-6 text-purple-600" />,
-      title: "Office Address",
-      details: "ESAHAKARA, KARNATAKA",
-      subtitle: "35 Mayasandra, Turuvekere , Tumkur 572221"
-    },
+    // {
+    //   icon: <MapPin className="h-6 w-6 text-purple-600" />,
+    //   title: "Office Address",
+    //   details: "ESAHAKARA, KARNATAKA",
+    //   subtitle: "35 Mayasandra, Turuvekere , Tumkur 572221"
+    // },
     {
       icon: <Clock className="h-6 w-6 text-yellow-600" />,
       title: "Business Hours",
@@ -327,7 +327,7 @@ export const Contact: React.FC = () => {
       </section>
 
       {/* Map Section - Placeholder */}
-      <section className="py-16 bg-gray-100">
+      {/* <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Find Us</h2>
@@ -344,7 +344,7 @@ export const Contact: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

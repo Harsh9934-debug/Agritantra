@@ -123,7 +123,7 @@ export const ForFarmers: React.FC = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="mb-16">
+      {/* <section className="mb-16">
         <h2 className="text-3xl font-semibold text-center mb-10">What Farmers Say</h2>
         <div className="max-w-3xl mx-auto">
           {testimonials.map(({ name, location, image }) => (
@@ -144,7 +144,7 @@ export const ForFarmers: React.FC = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

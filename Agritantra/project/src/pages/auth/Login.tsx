@@ -77,11 +77,11 @@ export const Login: React.FC = () => {
               </div>
             )}
 
-            <div className="bg-blue-50 border border-blue-200 text-blue-800 px-4 py-3 rounded text-sm">
+            {/* <div className="bg-blue-50 border border-blue-200 text-blue-800 px-4 py-3 rounded text-sm">
               <p><strong>Demo Credentials:</strong></p>
               <p>Email: farmer@demo.com</p>
               <p>Password: password</p>
-            </div>
+            </div> */}
 
             <div className="space-y-4">
               <div>
