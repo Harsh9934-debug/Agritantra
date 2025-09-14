@@ -16,7 +16,6 @@ import { FarmerDashboard } from './pages/dashboard/FarmerDashboard';
 import { AdminDashboard } from './pages/dashboard/AdminDashboard';
 import { AuthProvider } from './contexts/AuthContext';
 import { IoTProvider } from './contexts/IoTContext';
-import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
@@ -53,7 +52,6 @@ function App() {
 
             {/* Footer */}
             <Footer />
-            <Analytics />
           </div>
         </Router>
       </IoTProvider>
