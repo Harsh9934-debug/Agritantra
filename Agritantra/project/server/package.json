@@ -1,0 +1,58 @@
+{
+  "name": "agritantra-backend",
+  "version": "1.0.0",
+  "description": "Agritantra Smart Farming Platform Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "build": "npm install",
+    "docker:build": "docker build -t agritantra-backend .",
+    "docker:run": "docker run -p 5000:5000 agritantra-backend"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.3",
+    "firebase-admin": "^11.11.1",
+    "mqtt": "^5.3.0",
+    "ws": "^8.14.2",
+    "stripe": "^14.7.0",
+    "nodemailer": "^6.9.7",
+    "joi": "^17.11.0",
+    "uuid": "^9.0.1",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.6",
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "@types/jest": "^29.5.8"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "keywords": [
+    "agriculture",
+    "iot",
+    "smart-farming",
+    "nodejs",
+    "express"
+  ],
+  "author": "Agritantra Team",
+  "license": "MIT"
+}
