@@ -58,11 +58,11 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-green-500" />
-                <span className="text-gray-400">+91 807-3804-799</span>
+                <span className="text-gray-400">+91 9738575088</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-green-500" />
-                <span className="text-gray-400">TT GLOBAL IT, India</span>
+                <span className="text-gray-400">Agritantra</span>
               </div>
             </div>
           </div>
